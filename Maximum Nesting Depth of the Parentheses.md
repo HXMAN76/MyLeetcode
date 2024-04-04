@@ -30,7 +30,7 @@ Given a VPS represented as string s, return the nesting depth of s.
 - Time complexity: $$O(n)$$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
-- Space complexity:$$O(n)$$
+- Space complexity: $$O(n)$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 ---
