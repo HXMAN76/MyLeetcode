@@ -19,7 +19,7 @@ To approch this kind of problem we can apply `DFS - Depth first Search` this met
 - Time complexity: $$O( \ n \ )$$
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
-- Space complexity: $$O(\ h \ )$$
+- Space complexity: $$O(\ n \ )$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 Where `n` is number of nodes and `h` is height of the tree. 
 # My submission
