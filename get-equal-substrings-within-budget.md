@@ -44,4 +44,4 @@ class Solution:
 ```
 >***Have a nice day... <3***
 
-![img](https://i.imgflip.com/415oth.gif)get-equal-substrings-within-budget/
+![img](https://i.imgflip.com/415oth.gif)
