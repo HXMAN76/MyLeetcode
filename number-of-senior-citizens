@@ -1,0 +1,22 @@
+# Complexity
+- Time complexity: $$O(n)$$
+<!-- Add your time complexity here, e.g. $$O(n)$$ -->
+
+- Space complexity: $$O(1)$$
+<!-- Add your space complexity here, e.g. $$O(n)$$ -->
+
+![image.png](https://assets.leetcode.com/users/images/78aacbd1-2cff-423f-a53c-12b0489df2f4_1722483398.7243695.png)
+
+# Code
+```
+class Solution:
+    def countSeniors(self, details: List[str]) -> int:
+        count = 0
+        for i in range(len(details)):
+            if int(details[i][11:13]) > 60:
+                count += 1
+        return count     
+```
+>***Have a nice day... <3***
+
+![img](https://i.imgflip.com/415oth.gif)
