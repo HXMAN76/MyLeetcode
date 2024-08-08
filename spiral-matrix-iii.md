@@ -111,3 +111,6 @@ class Solution(object):
                     moves = next_moves - 1
         return res
 ```
+>***Have a nice day... <3***
+
+![img](https://i.imgflip.com/415oth.gif)
