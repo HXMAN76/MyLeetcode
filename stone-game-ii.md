@@ -25,6 +25,7 @@ Given that the opponent will also play optimally, it's vital to minimize their p
 
 - Space complexity: $$O(n^2)$$
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
+<a href = https://leetcode.com/problems/stone-game-ii/submissions/1362136606/>![image.png](https://assets.leetcode.com/users/images/6b35e6c7-a4d9-4468-9907-a9c9769278da_1724136995.5218477.png)</a>
 
 # Code
 ```python3 []
