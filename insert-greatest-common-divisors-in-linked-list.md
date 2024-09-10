@@ -47,3 +47,32 @@ class Solution {
     }
 }
 ```
+---
+```java []
+class Solution {
+    public int gcd(int a, int b) {  
+        while (b != 0) {  
+            int temp = b;  
+            b = a % b;  
+            a = temp;  
+        }  
+        return a;  
+    }  
+
+    public ListNode insertGreatestCommonDivisors(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode current = head;
+        while (current.next != null) {
+            int gcdValue = gcd(current.val, current.next.val);
+            ListNode newNode = new ListNode(gcdValue);
+            newNode.next = current.next;
+            current.next = newNode;
+            current = current.next.next;
+        }
+        return head;
+    }
+}
+```
